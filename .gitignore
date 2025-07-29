@@ -1,0 +1,33 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Logs and local files
+*.log
+*.sqlite3
+storage/
+
+# Jupyter notebooks and editor settings
+.ipynb_checkpoints
+.vscode/
+
+# Python build artifacts
+*.egg-info/
+dist/
+build/
+
+# Node-related (if using frontend)
+node_modules/
+
+# Lock/requirements files (optional)
+poetry.lock
+Pipfile.lock
