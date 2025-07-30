@@ -53,6 +53,7 @@ def load_urls_from_file(file_path="urls.txt") -> List[Document]:
 documents = load_all_documents() + load_urls_from_file()
 
 storage_context = StorageContext.from_defaults(persist_dir="./storage")
+
 index = VectorStoreIndex.from_documents(documents, storage_context=storage_context)
 index.storage_context.persist()
 
