@@ -1,33 +1,27 @@
-# Python bytecode and cache
+# Python bytecode
 __pycache__/
 *.py[cod]
-*$py.class
+*.so
 
-# Virtual environments
+# Virtual environment
 venv/
-env/
-
-# Environment variables
 .env
-.env.*
 
-# Logs and local files
+# NLTK data (optional if you're downloading locally)
+nltk_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and misc
 *.log
-*.sqlite3
-storage/
 
-# Jupyter notebooks and editor settings
-.ipynb_checkpoints
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
 .vscode/
 
-# Python build artifacts
-*.egg-info/
-dist/
-build/
-
-# Node-related (if using frontend)
-node_modules/
-
-# Lock/requirements files (optional)
-poetry.lock
-Pipfile.lock
+# LlamaIndex storage
+storage/

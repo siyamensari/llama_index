@@ -1,0 +1,2 @@
+https://cdaweb.gsfc.nasa.gov/WebServices/
+https://cdaweb.gsfc.nasa.gov/WebServices/py/cdasws/
